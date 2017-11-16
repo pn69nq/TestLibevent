@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -g   CMakeFiles/le-proxy.dir/sample/le-proxy.c.o  -o bin/le-proxy -rdynamic lib/libevent_extra.a lib/libevent_core.a -lssl -lcrypto -lpthread -lz lib/libevent_openssl.a 

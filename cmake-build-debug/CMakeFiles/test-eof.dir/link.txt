@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -g   CMakeFiles/test-eof.dir/test/test-eof.c.o  -o bin/test-eof -Wl,-rpath,/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib -rdynamic -lssl -lcrypto -lpthread -lz lib/libevent_extra.so.2.2.0 lib/libevent_core.so.2.2.0 -lpthread 

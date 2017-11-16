@@ -1,0 +1,2381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libevent"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event-read-fifo">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/event-read-fifo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event-read-fifo"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event-read-fifo/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/event-read-fifo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event-read-fifo/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_http">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/bench_http" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 bench_http"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_http/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/bench_http" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 bench_http/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_extra_static">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_extra.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_extra_static"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_extra_static/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_extra.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_extra_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="time-test">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/time-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 time-test"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="time-test/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/time-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 time-test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_openssl_shared">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_openssl.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_openssl_shared"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_openssl_shared/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_openssl.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_openssl_shared/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http-server">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/http-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 http-server"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http-server/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/http-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 http-server/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_core_static">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_core_static"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_core_static/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_core_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_httpclient">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/bench_httpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 bench_httpclient"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_httpclient/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/bench_httpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 bench_httpclient/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dns-example">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/dns-example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 dns-example"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dns-example/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/dns-example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 dns-example/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_pthreads_shared">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_pthreads.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_pthreads_shared"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_pthreads_shared/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_pthreads.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_pthreads_shared/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal-test">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/signal-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal-test"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal-test/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/signal-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal-test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello-world">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/hello-world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello-world"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello-world/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/hello-world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello-world/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-dumpevents">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-dumpevents" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-dumpevents"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-dumpevents/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-dumpevents" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-dumpevents/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="https-client">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/https-client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 https-client"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="https-client/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/https-client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 https-client/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_core_shared">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_core.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_core_shared"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_core_shared/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_core.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_core_shared/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_openssl_static">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_openssl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_openssl_static"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_openssl_static/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_openssl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_openssl_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_pthreads_static">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_pthreads.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_pthreads_static"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_pthreads_static/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_pthreads.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_pthreads_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_extra_shared">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_extra.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_extra_shared"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_extra_shared/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent_extra.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_extra_shared/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_shared">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_shared"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_shared/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_shared/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_static">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_static"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_static/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib/libevent.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 event_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/bench" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 bench"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/bench" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 bench/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-eof">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-eof" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-eof"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-eof/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-eof" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-eof/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_cascade">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/bench_cascade" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 bench_cascade"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_cascade/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/bench_cascade" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 bench_cascade/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="regress">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/regress" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 regress"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="regress/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/regress" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 regress/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-changelist">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-changelist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-changelist"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-changelist/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-changelist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-changelist/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-fdleak">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-fdleak" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-fdleak"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-fdleak/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-fdleak" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-fdleak/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http-connect">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/http-connect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 http-connect"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http-connect/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/http-connect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 http-connect/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-time">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-time" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-time"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-time/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-time" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-time/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-weof">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-weof" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-weof"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-weof/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-weof" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-weof/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="le-proxy">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/le-proxy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 le-proxy"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="le-proxy/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/le-proxy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 le-proxy/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-ratelim">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-ratelim" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-ratelim"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-ratelim/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-ratelim" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-ratelim/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="verify">
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 verify"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-init">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-init" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-init"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-init/fast">
+				<Option output="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin/test-init" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/include"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent/compat"/>
+					<Add directory="/mnt/jjfly_d/c_c_plus_plus/Libevent"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 test-init/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/buffer.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/bufferevent.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/bufferevent_filter.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/bufferevent_openssl.c">
+			<Option target="event_openssl_shared"/>
+			<Option target="event_openssl_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/bufferevent_pair.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/bufferevent_ratelim.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/bufferevent_sock.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/epoll.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/evdns.c">
+			<Option target="event_extra_static"/>
+			<Option target="event_extra_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/event.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/event_tagging.c">
+			<Option target="event_extra_static"/>
+			<Option target="event_extra_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/evmap.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/evrpc.c">
+			<Option target="event_extra_static"/>
+			<Option target="event_extra_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/evthread.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/evthread_pthread.c">
+			<Option target="event_pthreads_shared"/>
+			<Option target="event_pthreads_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/evutil.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/evutil_rand.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/evutil_time.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/http.c">
+			<Option target="event_extra_static"/>
+			<Option target="event_extra_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/listener.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/log.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/poll.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/dns-example.c">
+			<Option target="dns-example"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/event-read-fifo.c">
+			<Option target="event-read-fifo"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/hello-world.c">
+			<Option target="hello-world"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/hostcheck.c">
+			<Option target="https-client"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/hostcheck.h">
+			<Option target="https-client"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/http-connect.c">
+			<Option target="http-connect"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/http-server.c">
+			<Option target="http-server"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/https-client.c">
+			<Option target="https-client"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/le-proxy.c">
+			<Option target="le-proxy"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/openssl_hostname_validation.c">
+			<Option target="https-client"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/openssl_hostname_validation.h">
+			<Option target="https-client"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/signal-test.c">
+			<Option target="signal-test"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/sample/time-test.c">
+			<Option target="time-test"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/select.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/signal.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/strlcpy.c">
+			<Option target="event_core_static"/>
+			<Option target="event_core_shared"/>
+			<Option target="event_shared"/>
+			<Option target="event_static"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/bench.c">
+			<Option target="bench"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/bench_cascade.c">
+			<Option target="bench_cascade"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/bench_http.c">
+			<Option target="bench_http"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/bench_httpclient.c">
+			<Option target="bench_httpclient"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress.gen.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress.gen.c.rule">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress.gen.h">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress.h">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_buffer.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_bufferevent.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_dns.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_et.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_finalize.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_http.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_listener.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_main.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_minheap.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_rpc.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_ssl.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_testutils.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_testutils.h">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_thread.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_thread.h">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_util.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/regress_zlib.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/test-changelist.c">
+			<Option target="test-changelist"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/test-dumpevents.c">
+			<Option target="test-dumpevents"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/test-eof.c">
+			<Option target="test-eof"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/test-fdleak.c">
+			<Option target="test-fdleak"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/test-init.c">
+			<Option target="test-init"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/test-ratelim.c">
+			<Option target="test-ratelim"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/test-time.c">
+			<Option target="test-time"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/test-weof.c">
+			<Option target="test-weof"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/tinytest.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/test/tinytest.h">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/event-config.h.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/evconfig-private.h.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/libevent_core.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/libevent_extra.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/libevent_openssl.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/libevent_pthreads.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/libevent.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFileOffsetBits.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckPrototypeDefinition.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionKeywords.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckConstExists.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/AddCompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/VersionViaGit.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/FindGit.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/FindGit.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckPrototypeDefinition.c.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckPrototypeDefinition.c.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckPrototypeDefinition.c.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/CheckFunctionExistsEx.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/AddEventLibrary.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/LibeventConfigBuildTree.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/LibeventConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake/LibeventConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="libevent" targetName="ContinuousCoverage" />
+      <config projectName="libevent" targetName="http-server" />
+      <config projectName="libevent" targetName="NightlyTest" />
+      <config projectName="libevent" targetName="event-read-fifo" />
+      <config projectName="libevent" targetName="NightlyCoverage" />
+      <config projectName="libevent" targetName="test-changelist" />
+      <config projectName="libevent" targetName="bench_http" />
+      <config projectName="libevent" targetName="event_openssl_shared" />
+      <config projectName="libevent" targetName="ExperimentalTest" />
+      <config projectName="libevent" targetName="event_static" />
+      <config projectName="libevent" targetName="ContinuousStart" />
+      <config projectName="libevent" targetName="test-init" />
+      <config projectName="libevent" targetName="event_pthreads_static" />
+      <config projectName="libevent" targetName="ExperimentalMemCheck" />
+      <config projectName="libevent" targetName="event_extra_static" />
+      <config projectName="libevent" targetName="http-connect" />
+      <config projectName="libevent" targetName="ExperimentalCoverage" />
+      <config projectName="libevent" targetName="test-weof" />
+      <config projectName="libevent" targetName="NightlyUpdate" />
+      <config projectName="libevent" targetName="test-fdleak" />
+      <config projectName="libevent" targetName="bench_cascade" />
+      <config projectName="libevent" targetName="time-test" />
+      <config projectName="libevent" targetName="NightlyConfigure" />
+      <config projectName="libevent" targetName="test-ratelim" />
+      <config projectName="libevent" targetName="ContinuousBuild" />
+      <config projectName="libevent" targetName="event_core_shared" />
+      <config projectName="libevent" targetName="ContinuousUpdate" />
+      <config projectName="libevent" targetName="NightlyMemCheck" />
+      <config projectName="libevent" targetName="event_pthreads_shared" />
+      <config projectName="libevent" targetName="signal-test" />
+      <config projectName="libevent" targetName="ExperimentalConfigure" />
+      <config projectName="libevent" targetName="hello-world" />
+      <config projectName="libevent" targetName="https-client" />
+      <config projectName="libevent" targetName="ContinuousSubmit" />
+      <config projectName="libevent" targetName="event_extra_shared" />
+      <config projectName="libevent" targetName="ContinuousTest" />
+      <config projectName="libevent" targetName="NightlyMemoryCheck" />
+      <config projectName="libevent" targetName="event_openssl_static" />
+      <config projectName="libevent" targetName="test-eof" />
+      <config projectName="libevent" targetName="Continuous" />
+      <config projectName="libevent" targetName="bench_httpclient" />
+      <config projectName="libevent" targetName="ContinuousMemCheck" />
+      <config projectName="libevent" targetName="ExperimentalBuild" />
+      <config projectName="libevent" targetName="ExperimentalUpdate" />
+      <config projectName="libevent" targetName="test-time" />
+      <config projectName="libevent" targetName="NightlyStart" />
+      <config projectName="libevent" targetName="Experimental" />
+      <config projectName="libevent" targetName="verify" />
+      <config projectName="libevent" targetName="bench" />
+      <config projectName="libevent" targetName="Nightly" />
+      <config projectName="libevent" targetName="le-proxy" />
+      <config projectName="libevent" targetName="ContinuousConfigure" />
+      <config projectName="libevent" targetName="test-dumpevents" />
+      <config projectName="libevent" targetName="dns-example" />
+      <config projectName="libevent" targetName="event_core_static" />
+      <config projectName="libevent" targetName="NightlySubmit" />
+      <config projectName="libevent" targetName="event_shared" />
+      <config projectName="libevent" targetName="ExperimentalSubmit" />
+      <config projectName="libevent" targetName="regress" />
+      <config projectName="libevent" targetName="NightlyBuild" />
+      <config projectName="libevent" targetName="ExperimentalStart" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d03c1ba-2e82-45b9-a7b6-39e7aaedd4bf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_C.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_FD_MASK.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_SA_FAMILY_T.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_ADDRINFO.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_IN6_ADDR.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_LINGER.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_SOCKADDR_IN6.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT16_T.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT32_T.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT64_T.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT8_T.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINTPTR_T.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_INT.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_LONG.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_LONG_LONG.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_OFF_T.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_PID_T.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_PTHREAD_T.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SHORT.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SIZEE_T.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SOCKLEN_T.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_LOWER.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_TIME_T.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_UNSIGNED.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_UNSIGNED_INT.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_VOID_P.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/bin/bench" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/bin/hello-world" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libevent_core.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libevent_extra.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.clang-format" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Libevent.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.uncrustify" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChangeLog" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChangeLog-1.4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChangeLog-2.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Doxyfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Makefile.am" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Makefile.nmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vagrantfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WIN32-Code/getopt.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WIN32-Code/getopt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WIN32-Code/getopt_long.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WIN32-Code/nmake/evconfig-private.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WIN32-Code/nmake/event2/event-config.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WIN32-Code/tree.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appveyor.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arc4random.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autogen.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buffer.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buffer_iocp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bufferevent-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bufferevent.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bufferevent_async.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bufferevent_filter.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bufferevent_openssl.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bufferevent_pair.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bufferevent_ratelim.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bufferevent_sock.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/changelist-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkpatch.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeCCompiler.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeSystem.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/CMakeCCompilerId.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_FD_MASK.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_SA_FAMILY_T.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_ADDRINFO.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_IN6_ADDR.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_LINGER.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_SOCKADDR_IN6.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT16_T.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT32_T.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT64_T.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT8_T.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINTPTR_T.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_INT.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_LONG.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_LONG_LONG.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_OFF_T.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_PID_T.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_PTHREAD_T.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SHORT.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SIZEE_T.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SOCKLEN_T.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_LOWER.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_TIME_T.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_UNSIGNED.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_UNSIGNED_INT.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_VOID_P.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Continuous.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Continuous.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Continuous.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Continuous.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousBuild.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousBuild.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousBuild.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousConfigure.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousConfigure.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousConfigure.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousCoverage.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousCoverage.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousCoverage.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousMemCheck.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousMemCheck.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousMemCheck.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousStart.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousStart.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousStart.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousStart.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousSubmit.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousSubmit.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousSubmit.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousTest.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousTest.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousTest.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousTest.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousUpdate.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousUpdate.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousUpdate.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContinuousUpdate.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Experimental.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Experimental.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Experimental.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Experimental.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalBuild.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalBuild.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalBuild.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalConfigure.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalConfigure.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalConfigure.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalConfigure.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalCoverage.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalCoverage.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalCoverage.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalCoverage.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalMemCheck.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalMemCheck.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalMemCheck.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalStart.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalStart.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalStart.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalSubmit.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalSubmit.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalSubmit.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalSubmit.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalTest.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalTest.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalTest.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalTest.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalUpdate.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalUpdate.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalUpdate.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExperimentalUpdate.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Export/lib/cmake/libevent/LibeventTargets-debug.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Export/lib/cmake/libevent/LibeventTargets.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LibeventConfig.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Nightly.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Nightly.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Nightly.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Nightly.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyBuild.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyBuild.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyBuild.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyBuild.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyConfigure.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyConfigure.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyConfigure.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyConfigure.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyCoverage.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyCoverage.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyCoverage.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyCoverage.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyMemCheck.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyMemCheck.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyMemCheck.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyMemoryCheck.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyMemoryCheck.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyMemoryCheck.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyMemoryCheck.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyStart.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyStart.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyStart.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyStart.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlySubmit.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlySubmit.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlySubmit.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlySubmit.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyTest.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyTest.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyTest.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyTest.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyUpdate.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyUpdate.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyUpdate.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NightlyUpdate.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench.dir/C.includecache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench.dir/depend.internal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_cascade.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_cascade.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_cascade.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_cascade.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_cascade.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_cascade.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_cascade.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_http.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_http.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_http.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_http.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_http.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_http.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_http.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_httpclient.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_httpclient.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_httpclient.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_httpclient.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_httpclient.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_httpclient.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bench_httpclient.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dns-example.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dns-example.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dns-example.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dns-example.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dns-example.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dns-example.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dns-example.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event-read-fifo.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event-read-fifo.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event-read-fifo.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event-read-fifo.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event-read-fifo.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event-read-fifo.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event-read-fifo.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_shared.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_shared.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_shared.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_shared.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_shared.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_shared.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_shared.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_static.dir/C.includecache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_static.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_static.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_static.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_static.dir/cmake_clean_target.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_static.dir/depend.internal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_static.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_static.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_static.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_core_static.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_shared.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_shared.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_shared.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_shared.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_shared.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_shared.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_shared.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_static.dir/C.includecache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_static.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_static.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_static.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_static.dir/cmake_clean_target.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_static.dir/depend.internal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_static.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_static.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_static.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_extra_static.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_shared.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_shared.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_shared.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_shared.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_shared.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_shared.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_shared.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_static.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_static.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_static.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_static.dir/cmake_clean_target.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_static.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_static.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_static.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_openssl_static.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_shared.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_shared.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_shared.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_shared.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_shared.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_shared.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_shared.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_static.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_static.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_static.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_static.dir/cmake_clean_target.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_static.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_static.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_static.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_pthreads_static.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_shared.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_shared.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_shared.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_shared.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_shared.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_shared.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_shared.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_static.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_static.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_static.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_static.dir/cmake_clean_target.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_static.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_static.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_static.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/event_static.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello-world.dir/C.includecache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello-world.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello-world.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello-world.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello-world.dir/depend.internal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello-world.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello-world.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello-world.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello-world.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-connect.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-connect.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-connect.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-connect.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-connect.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-connect.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-connect.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-server.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-server.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-server.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-server.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-server.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-server.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/http-server.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/https-client.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/https-client.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/https-client.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/https-client.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/https-client.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/https-client.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/https-client.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/le-proxy.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/le-proxy.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/le-proxy.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/le-proxy.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/le-proxy.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/le-proxy.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/le-proxy.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/regress.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/regress.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/regress.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/regress.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/regress.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/regress.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/regress.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/signal-test.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/signal-test.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/signal-test.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/signal-test.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/signal-test.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/signal-test.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/signal-test.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-changelist.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-changelist.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-changelist.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-changelist.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-changelist.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-changelist.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-changelist.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-dumpevents.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-dumpevents.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-dumpevents.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-dumpevents.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-dumpevents.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-dumpevents.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-dumpevents.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-eof.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-eof.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-eof.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-eof.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-eof.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-eof.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-eof.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-fdleak.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-fdleak.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-fdleak.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-fdleak.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-fdleak.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-fdleak.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-fdleak.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-init.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-init.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-init.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-init.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-init.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-init.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-init.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-ratelim.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-ratelim.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-ratelim.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-ratelim.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-ratelim.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-ratelim.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-ratelim.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-time.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-time.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-time.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-time.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-time.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-time.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-time.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-weof.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-weof.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-weof.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-weof.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-weof.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-weof.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test-weof.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/time-test.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/time-test.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/time-test.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/time-test.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/time-test.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/time-test.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/time-test.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/verify.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/verify.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/verify.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/verify.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/DartConfiguration.tcl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/LibeventConfig.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/LibeventConfigVersion.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/LibeventTargets.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/include/evconfig-private.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/include/event2/event-config.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/libevent.cbp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/tmp/verify_tests.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/verify_tests.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/AddCompilerFlags.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/AddEventLibrary.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/COPYING-CMAKE-SCRIPTS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/CheckConstExists.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/CheckFileOffsetBits.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/CheckFileOffsetBits.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/CheckFunctionExistsEx.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/CheckFunctionExistsEx.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/CheckFunctionKeywords.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/CheckPrototypeDefinition.c.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/CheckPrototypeDefinition.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/CheckWorkingKqueue.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/CodeCoverage.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/Copyright.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/FindGit.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/LibeventConfig.cmake.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/LibeventConfigBuildTree.cmake.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/LibeventConfigVersion.cmake.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmake/VersionViaGit.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compat/sys/queue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/configure.ac" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/defer-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devpoll.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/epoll.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/epoll_sub.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/epolltable-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evbuffer-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evconfig-private.h.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evconfig-private.h.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evdns.3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evdns.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-config.h.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event.3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event_iocp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event_rpcgen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event_tagging.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evmap-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evmap.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evport.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evrpc-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evrpc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evsignal-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evthread-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evthread.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evthread_pthread.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evthread_win32.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evutil.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evutil_rand.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evutil_time.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ht-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/http-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/http.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/evdns.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/buffer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/buffer_compat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/bufferevent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/bufferevent_compat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/bufferevent_ssl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/bufferevent_struct.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/dns.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/dns_compat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/dns_struct.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/event.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/event_compat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/event_struct.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/http.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/http_compat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/http_struct.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/keyvalq_struct.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/listener.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/rpc.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/rpc_compat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/rpc_struct.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/tag.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/tag_compat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/thread.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/util.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/event2/visibility.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/evhttp.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/evrpc.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/evutil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/include.am" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iocp-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ipv6-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kqueue-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kqueue.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libevent.pc.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libevent_core.pc.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libevent_extra.pc.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libevent_openssl.pc.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libevent_pthreads.pc.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/listener.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m4/ac_backport_259_ssizet.m4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m4/acx_pthread.m4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m4/libevent_openssl.m4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m4/ntp_pkg_config.m4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/make-event-config.sed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/make_epoll_table.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minheap-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mm-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openssl-compat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/poll.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ratelim-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/dns-example.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/event-read-fifo.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/hello-world.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/hostcheck.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/hostcheck.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/http-connect.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/http-server.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/https-client.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/include.am" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/le-proxy.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/openssl_hostname_validation.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/openssl_hostname_validation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/signal-test.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/time-test.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/select.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signal.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strlcpy-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strlcpy.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/Makefile.nmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/bench.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/bench_cascade.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/bench_http.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/bench_httpclient.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/check-dumpevents.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/include.am" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/print-winsock-errors.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress.rpc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_buffer.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_bufferevent.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_dns.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_et.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_finalize.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_http.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_iocp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_listener.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_main.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_minheap.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_rpc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_ssl.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_testutils.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_testutils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_thread.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_thread.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_util.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/regress_zlib.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/rpcgen_wrapper.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-changelist.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-closed.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-dumpevents.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-eof.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-fdleak.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-init.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-ratelim.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-ratelim.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-time.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-weof.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/tinytest.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/tinytest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/tinytest_demo.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/tinytest_local.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/tinytest_macros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util-internal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whatsnew-2.0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whatsnew-2.1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whatsnew-2.2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/win32select.c" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="bench_http.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/bench_http.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="88" column="24" lean-forward="false" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bench_httpclient.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/bench_httpclient.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2118">
+              <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello-world.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sample/hello-world.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="111" column="43" lean-forward="true" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sample/hello-world.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1928" />
+    <option name="height" value="1052" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libevent" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libevent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.hello-world">
+    <configuration default="true" type="#com.sylvanaar.idea.Lua.run.LuaConfigurationType" factoryName="Lua Script">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="ALTERNATE_INTERPRETER" value="false" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Libevent" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <platform value="ANDROID" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Libevent" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Libevent" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Libevent" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Libevent" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Libevent" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="bench" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="bench" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="bench">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="bench_cascade" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="bench_cascade" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="bench_cascade">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="bench_http" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="bench_http" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="bench_http">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="bench_httpclient" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="bench_httpclient" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="bench_httpclient">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Continuous" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ContinuousBuild">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ContinuousConfigure">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ContinuousCoverage">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ContinuousMemCheck">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ContinuousStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ContinuousStart">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ContinuousSubmit">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ContinuousTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ContinuousTest">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ContinuousUpdate">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="dns-example" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="dns-example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="dns-example">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="event-read-fifo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="event-read-fifo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="event-read-fifo">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="event_core_shared" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="event_core_shared" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="event_core_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="event_core_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="event_extra_shared" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="event_extra_shared" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="event_extra_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="event_extra_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="event_openssl_shared" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="event_openssl_shared" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="event_openssl_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="event_openssl_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="event_pthreads_shared" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="event_pthreads_shared" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="event_pthreads_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="event_pthreads_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="event_shared" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="event_shared" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="event_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="event_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Experimental" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="Experimental" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ExperimentalBuild">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ExperimentalConfigure">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ExperimentalCoverage">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ExperimentalMemCheck">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ExperimentalStart">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ExperimentalSubmit">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ExperimentalTest">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="ExperimentalUpdate">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="hello-world" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="hello-world" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="hello-world">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="http-connect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="http-connect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="http-connect">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="http-server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="http-server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="http-server">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="https-client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="https-client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="https-client">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="le-proxy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="le-proxy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="le-proxy">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nightly" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="Nightly" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="NightlyBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="NightlyBuild">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="NightlyConfigure">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="NightlyCoverage">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="NightlyMemCheck">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="NightlyMemoryCheck">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="NightlyStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="NightlyStart">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="NightlySubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="NightlySubmit">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="NightlyTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="NightlyTest">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="NightlyUpdate">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="regress" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="regress" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="regress">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="signal-test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="signal-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="signal-test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test-changelist" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="test-changelist" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="test-changelist">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test-dumpevents" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="test-dumpevents" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="test-dumpevents">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test-eof" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="test-eof" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="test-eof">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test-fdleak" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="test-fdleak" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="test-fdleak">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test-init" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="test-init" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="test-init">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test-ratelim" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="test-ratelim" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="test-ratelim">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test-time" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="test-time" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="test-time">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test-weof" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="test-weof" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="test-weof">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="time-test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="time-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libevent" RUN_TARGET_NAME="time-test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="verify" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libevent" TARGET_NAME="verify" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <list size="62">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.bench" />
+      <item index="2" class="java.lang.String" itemvalue="Application.bench_cascade" />
+      <item index="3" class="java.lang.String" itemvalue="Application.bench_http" />
+      <item index="4" class="java.lang.String" itemvalue="Application.bench_httpclient" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Continuous" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ContinuousBuild" />
+      <item index="7" class="java.lang.String" itemvalue="Application.ContinuousConfigure" />
+      <item index="8" class="java.lang.String" itemvalue="Application.ContinuousCoverage" />
+      <item index="9" class="java.lang.String" itemvalue="Application.ContinuousMemCheck" />
+      <item index="10" class="java.lang.String" itemvalue="Application.ContinuousStart" />
+      <item index="11" class="java.lang.String" itemvalue="Application.ContinuousSubmit" />
+      <item index="12" class="java.lang.String" itemvalue="Application.ContinuousTest" />
+      <item index="13" class="java.lang.String" itemvalue="Application.ContinuousUpdate" />
+      <item index="14" class="java.lang.String" itemvalue="Application.dns-example" />
+      <item index="15" class="java.lang.String" itemvalue="Application.event-read-fifo" />
+      <item index="16" class="java.lang.String" itemvalue="Application.event_core_shared" />
+      <item index="17" class="java.lang.String" itemvalue="Application.event_core_static" />
+      <item index="18" class="java.lang.String" itemvalue="Application.event_extra_shared" />
+      <item index="19" class="java.lang.String" itemvalue="Application.event_extra_static" />
+      <item index="20" class="java.lang.String" itemvalue="Application.event_openssl_shared" />
+      <item index="21" class="java.lang.String" itemvalue="Application.event_openssl_static" />
+      <item index="22" class="java.lang.String" itemvalue="Application.event_pthreads_shared" />
+      <item index="23" class="java.lang.String" itemvalue="Application.event_pthreads_static" />
+      <item index="24" class="java.lang.String" itemvalue="Application.event_shared" />
+      <item index="25" class="java.lang.String" itemvalue="Application.event_static" />
+      <item index="26" class="java.lang.String" itemvalue="Application.Experimental" />
+      <item index="27" class="java.lang.String" itemvalue="Application.ExperimentalBuild" />
+      <item index="28" class="java.lang.String" itemvalue="Application.ExperimentalConfigure" />
+      <item index="29" class="java.lang.String" itemvalue="Application.ExperimentalCoverage" />
+      <item index="30" class="java.lang.String" itemvalue="Application.ExperimentalMemCheck" />
+      <item index="31" class="java.lang.String" itemvalue="Application.ExperimentalStart" />
+      <item index="32" class="java.lang.String" itemvalue="Application.ExperimentalSubmit" />
+      <item index="33" class="java.lang.String" itemvalue="Application.ExperimentalTest" />
+      <item index="34" class="java.lang.String" itemvalue="Application.ExperimentalUpdate" />
+      <item index="35" class="java.lang.String" itemvalue="Application.hello-world" />
+      <item index="36" class="java.lang.String" itemvalue="Application.http-connect" />
+      <item index="37" class="java.lang.String" itemvalue="Application.http-server" />
+      <item index="38" class="java.lang.String" itemvalue="Application.https-client" />
+      <item index="39" class="java.lang.String" itemvalue="Application.le-proxy" />
+      <item index="40" class="java.lang.String" itemvalue="Application.Nightly" />
+      <item index="41" class="java.lang.String" itemvalue="Application.NightlyBuild" />
+      <item index="42" class="java.lang.String" itemvalue="Application.NightlyConfigure" />
+      <item index="43" class="java.lang.String" itemvalue="Application.NightlyCoverage" />
+      <item index="44" class="java.lang.String" itemvalue="Application.NightlyMemCheck" />
+      <item index="45" class="java.lang.String" itemvalue="Application.NightlyMemoryCheck" />
+      <item index="46" class="java.lang.String" itemvalue="Application.NightlyStart" />
+      <item index="47" class="java.lang.String" itemvalue="Application.NightlySubmit" />
+      <item index="48" class="java.lang.String" itemvalue="Application.NightlyTest" />
+      <item index="49" class="java.lang.String" itemvalue="Application.NightlyUpdate" />
+      <item index="50" class="java.lang.String" itemvalue="Application.regress" />
+      <item index="51" class="java.lang.String" itemvalue="Application.signal-test" />
+      <item index="52" class="java.lang.String" itemvalue="Application.test-changelist" />
+      <item index="53" class="java.lang.String" itemvalue="Application.test-dumpevents" />
+      <item index="54" class="java.lang.String" itemvalue="Application.test-eof" />
+      <item index="55" class="java.lang.String" itemvalue="Application.test-fdleak" />
+      <item index="56" class="java.lang.String" itemvalue="Application.test-init" />
+      <item index="57" class="java.lang.String" itemvalue="Application.test-ratelim" />
+      <item index="58" class="java.lang.String" itemvalue="Application.test-time" />
+      <item index="59" class="java.lang.String" itemvalue="Application.test-weof" />
+      <item index="60" class="java.lang.String" itemvalue="Application.time-test" />
+      <item index="61" class="java.lang.String" itemvalue="Application.verify" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d03c1ba-2e82-45b9-a7b6-39e7aaedd4bf" name="Default" comment="" />
+      <created>1510830354954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510830354954</updated>
+      <workItem from="1510830393368" duration="940000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="940000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1928" height="1052" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/bench_http.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="88" column="24" lean-forward="false" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bench_httpclient.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2118">
+          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/hello-world.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="111" column="43" lean-forward="true" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC  -Wall -Wswitch -fno-strict-aliasing -g -fvisibility=hidden -shared -Wl,-soname,libevent_pthreads.so.2.2.0 -o lib/libevent_pthreads.so.2.2.0 CMakeFiles/event_pthreads_shared.dir/evthread_pthread.c.o -Wl,-rpath,/mnt/jjfly_d/c_c_plus_plus/Libevent/cmake-build-debug/lib: -lpthread lib/libevent_core.so.2.2.0 -lpthread 
